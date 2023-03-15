@@ -1,0 +1,65 @@
+/* 슬릭 배너 */
+.slick-slider{padding:0;}
+.ban{position: relative; padding: 24px 0 40px  !important; }
+ 
+.ban .slick-arrow{position: absolute; text-indent: -9999px;top:155px; width: 43px; height: 43px; background: #ccc;cursor: pointer;}
+.ban .slick-prev{left: -80px; background: url(https://cdn.jsdelivr.net/gh/braverokmc79/webstandard2019@v1.0.0/web/img/icon.png) no-repeat -150px 0;}
+.ban .slick-next{right: -80px;background: url(https://cdn.jsdelivr.net/gh/braverokmc79/webstandard2019@v1.0.0/web/img/icon.png) no-repeat -150px -43px;}
+.ban .slick-prev:hover{ background-position:  -193px 0;}
+.ban .slick-next:hover{background-position:  -193px -43px;}
+.ban img{width: 1200px;  }
+.ban img:hover{border-color: #98bcdc; }
+ 
+.slick-arrow{border: none;}
+  
+.ban .slick-list{
+	 box-shadow: 1px 5px 5px rgb(0 0 0 / 30%);
+}  
+.ban .slick-slide{}
+.ban .slick-slide a img{max-height: 350px;}
+.ban .slick-dots{position: absolute; /* bottom:15px;  */
+display: block; width: 100%; text-align: center;}
+.ban .slick-dots li{display: inline-block; width: 15px; height: 15px; margin: 5px;}
+.ban .slick-dots li button{font-size: 0; line-height: 0; display: block; width: 15px; border:0px;
+height: 15px; cursor: pointer;background: #c9cccd;border-radius: 50%; }
+.ban .slick-dots li.slick-active button{background: #26373F;}
+.ban div{border: 0px}
+.list{margin-top: 50px
+}
+.list h3{
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 3px solid #eee;
+    padding-bottom: 10px; 
+    display: inline-block;   
+}
+
+/* 2. 게시판 */
+#main-board{margin-top: 30px}
+.notice{position: relative; margin-top: 15px; font-family:'Noto Sans KR' !important ; }
+.notice h4{font-size: 1.5rem; color: #0093bd; opacity:0.8; cursor:pointer;
+padding-bottom: 3px; font-weight: bold; font-family:'Noto Sans KR' !important ;}
+
+.notice h4:hover{
+	opacity:1;
+}
+
+.notice li{overflow: hidden;background: url(../images/dot.gif) no-repeat 0 12px; padding-left: 8px; margin: 10px 0px;}
+.notice li a{float: left; width: 65%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 1.0rem; 
+font-family:'Noto Sans KR' !important ; }
+.notice li a:hover{color: #0093bd}
+.notice li span{float: right; width: 30%;  text-align: right; font-family:'Noto Sans KR'!important ; }
+ 
+.notice a.more{position: absolute; right: 0; top: 0px; display:block; width: 17px; height: 17px; color: #0093bd;
+opacity:0.8; cursor:pointer;
+}
+.notice a.more:hover{background-position: -167px -90px; opacity:1;}
+
+
+
+@media all and (max-width:479px) {
+	#main-board .col-xs-11{
+		left: 4%;	
+	}
+}
+
