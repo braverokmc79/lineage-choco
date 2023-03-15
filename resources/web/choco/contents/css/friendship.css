@@ -1144,3 +1144,7 @@
         width: 94%;
     }
 }
+
+.elementor-widget-container table tr td span{
+	padding-left: 5px;
+}
