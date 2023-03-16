@@ -1443,11 +1443,11 @@
     }
 }
 
-h2.elementor-heading-title.elementor-size-default{
+.ast-container h2.elementor-heading-title.elementor-size-default{
     font-size: 20px;
     margin-top: 20px;
     color: #707070;
-    }
+ }
      .elementor-widget.elementor-widget-text-editor{
         left:25px;
     }
