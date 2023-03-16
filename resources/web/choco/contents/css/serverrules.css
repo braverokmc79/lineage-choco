@@ -1448,9 +1448,9 @@
     margin-top: 20px;
     color: #707070;
  }
-     .elementor-widget.elementor-widget-text-editor{
-        left:25px;
-    }
-    .elementor-widget-container p b u{
-        color: red;
-    }
+ .ast-container .elementor-widget.elementor-widget-text-editor{
+    left:25px;
+}
+.ast-container .elementor-widget-container p b u{
+    color: red;
+}
