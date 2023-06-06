@@ -21,7 +21,9 @@
 .basic-post-list .wr-text { font-family:dotum; font-size:11px; letter-spacing:-1px; line-height:11px; font-weight:normal; }
 .basic-post-list .wr-icon { display:inline-block; padding:0px; margin:0px; line-height:12px; vertical-align:middle; background-repeat: no-repeat; background-position: 0px 0px; }
 .basic-post-list .wr-new { width:12px; height:12px; background-image: url('../images/icon_new.gif'); }
-.basic-post-list .wr-secret { width:12px; height:12px; background-image: url('../images/icon_secret.gif'); }
+.basic-post-list .wr-secret { width:12px; height:12px; background-image: url('../images/icon_secret.gif');    top: -3px;
+    position: relative;
+    margin-left: 3px; }
 .basic-post-list .wr-video { width:12px; height:12px; background-image: url('../images/icon_video.gif'); }
 .basic-post-list .wr-image { width:12px; height:12px; background-image: url('../images/icon_image.gif'); }
 .basic-post-list .wr-file { width:12px; height:12px; background-image: url('../images/icon_file.gif'); }
