@@ -2009,11 +2009,12 @@
 
 .section-etcservice a {
 	position: relative;
-	margin: 0 8px 0 15px;
+	margin: 0 8px 15px 15px;
 	line-height: 1;
 	font-size: 14px;
 	color: #474747;
-	white-space: nowrap
+	white-space: nowrap;
+	display: inline-block;
 }
 
 .section-etcservice a::before {
