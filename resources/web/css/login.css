@@ -144,3 +144,51 @@ body {
 .klover-dim-layer .pop-layer {display: block;}
 a.btn-layerClose {display: inline-block;height: 25px;padding: 0 14px 0;border: 1px solid #304a8a;background-color: #3f5a9d;font-size: 13px;color: #fff;line-height: 25px;}
 a.btn-layerClose:hover {  border: 1px solid #091940;background-color: #1f326a;color: #fff;}
+
+.message{
+  text-align: center;
+}
+.message a{
+	color: #4A72EF;
+    font-family: "Noto Sans KR", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+.form button {
+    background: #393025;
+}
+.form .message a {
+    color: #393025;
+    text-decoration: none;
+}
+.login-page .form{
+	width: 400px; 
+	height: 430px;
+}
+
+
+
+@media ( max-width :500px) {
+	#tocplusWindow {
+		display: none
+	}
+	
+	.nav-logo {
+		position: absolute;
+		top: 8px;
+		left: 32%;
+		transform: translateX(-50%)
+	}
+	
+	.login-page .form{
+		width: 70%; 
+		height: 430px;
+	}
+	
+    .login-page .form img{
+		width: 100%;
+	}
+}
+

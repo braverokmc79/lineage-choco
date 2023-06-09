@@ -128,3 +128,10 @@ button:active {
 	color :#1f3bb3;
 }
 
+.board-title{
+	max-width: 450px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+#calendar{
+   width:80%;
+   margin:20px auto;
+   margin-bottom:200px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* 드래그 박스의 스타일 */
+#external-events {
+	position: fixed;
+	left: 20px;
+	top: 20px;
+	width: 100px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	background: #eee;
+	text-align: left;
+}
+
+#external-events h4 {
+	font-size: 16px;
+	margin-top: 0;
+	padding-top: 1em;
+}
+
+#external-events .fc-event {
+	margin: 3px 0;
+	cursor: move;
+}
+
+#external-events p {
+	margin: 1.5em 0;
+	font-size: 11px;
+	color: #666;
+}
+
+#external-events p input {
+	margin: 0;
+	vertical-align: middle;
+}
+
+#calendar-wrap {
+	margin-left: 0px;
+}
+
+#calendar1 {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.fc-myCustomButton-button {
+/* 	background: #b31515 !important; */
+}
+
+.form-group{
+	
+	margin-bottom: 30px;
+}
+
+.fc-event-time, .fc-event-title{
+	font-size: 15px;	
+}
+.empl_nm{
+	display: none;
+}
+
+.daterangepicker .table-condensed tbody tr td.available:first-child { color: #0d6efd;}
+.daterangepicker .table-condensed tbody tr td.available:last-child { color: #f95f53  !important;}
+.daterangepicker td.active, .daterangepicker td.active:hover {background-color: #c5daed; border-color: transparent; color: #fff !important;}
+.daterangepicker .table-condensed tbody tr td.off {   color: #999  !important;  opacity:0.5;}
+.modal .modal-dialog .modal-content .modal-footer {   padding: 15px 31px;display: flex;justify-content: space-around;}
+
+.fc-daygrid-day.fc-day.fc-day-sat.fc-day-past .fc-daygrid-day-top a ,
+.fc-daygrid-day.fc-day.fc-day-sat.fc-day-future .fc-daygrid-day-top a
+{ color:#2575fc; }     /* 토요일 */
+
+.fc-daygrid-day.fc-day.fc-day-sun.fc-day-past .fc-daygrid-day-top a,
+.fc-daygrid-day.fc-day.fc-day-sun.fc-day-future .fc-daygrid-day-top a
+{color:#dd3e0e; }/* 일요일 */
+
+
+
+.daterangepicker .today.weekend.active.start-date.active.end-date.available{
+	  color: #fff !important;
+}

@@ -48,7 +48,7 @@ const smtp={
 		}
 		
 		$.ajax({
-			url:"/admin/smtpUpdate",
+			url:"/admin/smtp/smtpUpdate",
 			type:"post",
 			contentType:"application/json",
 			data:JSON.stringify(data),

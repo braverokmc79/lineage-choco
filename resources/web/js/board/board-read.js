@@ -262,7 +262,8 @@ $(document).ready(function(){
 	
 //////////////////////////////
 //////////////////////////////댓글 
-
+//	private String boardType; 	
+//	private String boardSubType;
 
 
   //댓글 등록
@@ -272,7 +273,8 @@ $(document).ready(function(){
 	   var bno =$("#bno").val();
 	   var content=$("#content").val();
 	   const isSecret=$("#isSecret").is(":checked");
-
+	   const boardType=$("#board_type").val();
+ 	   const boardSubType=$("#boardSubType").val();
 		   
 	  if(content==""){
 		  alert("내용을 입력해 주세요.");
@@ -303,7 +305,9 @@ $(document).ready(function(){
 				content: content,
 				username:username,
 				replyPassword:replyPassword,
-				isSecret:isSecret
+				isSecret:isSecret,
+				boardType:boardType,
+				boardSubType:boardSubType
 			},
 			dataType:'text',		
 			success:function(result){
@@ -667,3 +671,6 @@ function galleryView(){
 	
 	window.localStorage.setItem("listType", "gallery");
 }
+
+
+

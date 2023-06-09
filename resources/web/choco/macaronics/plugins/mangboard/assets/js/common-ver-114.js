@@ -299,7 +299,7 @@ function sendBoardFileDataHandler(response, state)
 		if(typeof(response.data)!=='undefined' && typeof(response.data.file_path)!=='undefined'){
 			if(mb_hybrid_app=="ios" && typeof(response.data.file_path2)!=='undefined'){
 				var file_url	= mb_urls["base"];
-				file_url			= file_url.replace('/wp-content/plugins','/wp-content/uploads');
+				file_url			= file_url.replace('/macaronics/plugins','/macaronics/uploads');
 				homeSendMessage({"mode":"FILE_DOWNLOAD","value": file_url+response.data.file_path2,"name": mb_selectFileName});
 			}else{
 				downloadFile(mb_urls["file"],"path="+encodeURIComponent(response.data.file_path));

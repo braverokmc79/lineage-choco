@@ -16711,8 +16711,12 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
 .text-danger {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+  
 }
 
+.fw-bold{
+	font-weight: bold;
+}
 .text-light {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
